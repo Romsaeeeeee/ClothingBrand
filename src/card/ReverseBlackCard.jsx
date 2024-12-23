@@ -1,16 +1,16 @@
 import DialogActions from '@mui/material/DialogActions';
 import { Fragment } from 'react';
 import { Dialog } from '@mui/material';
-import tshirt from "../assets/png.png"
+import tshirt from "../assets/Oversized_Tee_MockUp black.png"
 
 
-export default function ArcadeCard({ arcade, setArcade }) {
+export default function ReverseBlackCard({ black, setBlack }) {
     return (
         <Fragment>
             <Dialog
-                onClose={() => setArcade(false)}
+                onClose={() => setBlack(false)}
                 aria-labelledby="customized-dialog-title"
-                open={arcade}
+                open={black}
                 maxWidth
             >
                 <div className='w-[800px] h-[600px] flex flex-col justify-start items-center'>
@@ -19,7 +19,7 @@ export default function ArcadeCard({ arcade, setArcade }) {
                     </span>
                 </div>
                 <DialogActions>
-                    <button onClick={() => setArcade(false)}>
+                    <button onClick={() => setBlack(false)}>
                         Close
                     </button>
                 </DialogActions>
