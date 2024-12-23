@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "smooth_gracier_personal_useRg";
+  src: url("smooth_gracier-webfont.woff2") format("woff2"),
+    url("smooth_gracier-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Josefin Sans", serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
